@@ -13,6 +13,7 @@ documents = [
 response = embedding.embed_documents(documents)
 
 print(response)
+print(str(response))
 print(len(response))
 
 
